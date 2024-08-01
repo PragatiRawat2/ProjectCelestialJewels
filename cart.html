@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Celestial Jewels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product-landing.html">Products</a></li>
+                <li class="search-bar">
+                    <form action="search.html" method="get">
+                        <input type="text" name="query" placeholder="Search...">
+                        <button type="submit">Search</button>
+                    </form>
+                </li>
+                <li><a href="cart.html">Cart <img src="images/cart_icon.png" alt="Cart" data-count="0"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cart">
+            <h1>Your Shopping Cart</h1>
+            <div class="cart-items"></div>
+            <div class="cart-actions">
+                <button id="buy-now">Buy Now</button>
+                <button id="keep-shopping">Keep Shopping</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Celestial Jewels. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
